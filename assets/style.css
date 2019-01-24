@@ -49,10 +49,6 @@ h5 {
     margin: 10px;
 }
 
-#home:target {
-    border-bottom-color: 5px solid orangered;
-}
-
 .nav a:hover {
     border-bottom: 5px solid orangered;
 }
@@ -244,6 +240,8 @@ button {
         width: 500px;
         text-align: center;
         height: 250px;
+        position: relative;
+        top: 30px;
     }
     #HomePageContent {
         width: 80%;
@@ -275,22 +273,27 @@ button {
 }
 
 @media (max-width: 428px) {
+    .brand {
+        margin-top: 10px;
+    }
     .brand h3 {
-        margin-left: 115px;
+        margin-left: 110px;
     } 
     .brand h5 {
-        margin-left: 110px;
+        margin-left: 105px;
     }
     .navbar {
         margin-top: 25px;
-        margin-right: 70px;
+        margin-right: 75px;
     }
     .about-content {
         width: 300px;
         text-align: center;
         height: 300px;
-        margin-top: -65px;
-        margin-left: -170px;
+        position: relative;
+        top: 30px;
+        left: 190px;
+
     }
     #HomePageContent {
         width: 80%;
