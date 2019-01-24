@@ -65,6 +65,7 @@ h5 {
     left: 220px;
     background-color: orangered; opacity: 0.75;
     color: white;
+    margin-bottom: 20px;
 }
 
 .about-content h1 {
@@ -83,7 +84,7 @@ h5 {
 
 .portfolio-content {
     width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 .portfolio-content::after {
@@ -116,10 +117,6 @@ img {
     background: orangered;
 }
 
-.contact-container {
-    margin-bottom: 50px;
-}
-
 .contact-form h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #1C2833;
@@ -132,12 +129,11 @@ img {
 .contact-form {
     height: 600px;
     width: 50%;
-    margin: 0 auto;    
+    margin: 10px auto;    
     position: relative;
-    top: 50px;
+    top: 40px;
     border-radius: 5px;
     background-color: #cccccc;
-    margin-bottom: 50px;
 }
 
 #contact-name, #contact-email, #contact-message {
@@ -244,8 +240,7 @@ button {
     .about-content {
         width: 500px;
         text-align: center;
-        height: 35%;
-        margin-bottom: 10px;
+        height: 45%;
     }
     #HomePageContent {
         width: 80%;
@@ -253,7 +248,6 @@ button {
     }
     .portfolio-content {
        width: 100%;
-       margin: 10px auto;
     }
     .portfolio {
         width: 100%;
@@ -261,7 +255,6 @@ button {
     .contact-form {
         width: 90%;
         height: 450px;
-        margin-bottom: 10px;
     }
     .contact-form h3 {
         font-size: 20px;
@@ -292,10 +285,9 @@ button {
     .about-content {
         width: 300px;
         text-align: center;
-        height: 55%;
+        height: 45%;
         margin-top: -65px;
         margin-left: -170px;
-        margin-bottom: 10px;
     }
     #HomePageContent {
         width: 80%;
@@ -303,13 +295,11 @@ button {
     }
     .portfolio-content {
        width: 100%;
-       margin: 10px auto;
     }
     .portfolio {
         width: 95%;
     }
     .contact-form {
         width: 90%;
-        margin-bottom: 10px;
     }
 }
