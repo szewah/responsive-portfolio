@@ -275,21 +275,21 @@ button {
 
 @media (max-width: 428px) {
     .brand h3 {
-        margin-left: 120px;
+        margin-left: 115px;
     } 
     .brand h5 {
-        margin-left: 125px;
+        margin-left: 110px;
     }
     .navbar {
         margin-top: 25px;
-        margin-right: 75px;
+        margin-right: 70px;
     }
     .about-content {
         width: 300px;
         text-align: center;
         height: 45%;
         margin-top: -65px;
-        margin-left: -155px;
+        margin-left: -170px;
     }
     #HomePageContent {
         width: 80%;
