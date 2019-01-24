@@ -245,6 +245,7 @@ button {
         width: 500px;
         text-align: center;
         height: 35%;
+        margin-bottom: 10px;
     }
     #HomePageContent {
         width: 80%;
@@ -260,6 +261,7 @@ button {
     .contact-form {
         width: 90%;
         height: 450px;
+        margin-bottom: 10px;
     }
     .contact-form h3 {
         font-size: 20px;
@@ -290,9 +292,10 @@ button {
     .about-content {
         width: 300px;
         text-align: center;
-        height: 75%;
+        height: 55%;
         margin-top: -65px;
         margin-left: -170px;
+        margin-bottom: 10px;
     }
     #HomePageContent {
         width: 80%;
@@ -307,5 +310,6 @@ button {
     }
     .contact-form {
         width: 90%;
+        margin-bottom: 10px;
     }
 }
