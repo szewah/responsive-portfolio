@@ -243,7 +243,7 @@ button {
     .about-content {
         width: 500px;
         text-align: center;
-        height: 45%;
+        height: 250px;
     }
     #HomePageContent {
         width: 80%;
@@ -288,7 +288,7 @@ button {
     .about-content {
         width: 300px;
         text-align: center;
-        height: 45%;
+        height: 300px;
         margin-top: -65px;
         margin-left: -170px;
     }
