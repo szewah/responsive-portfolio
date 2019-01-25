@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url("images/backgroundimage.jpeg"); */
+    background-image: url("images/backgroundimage.jpeg");
 }
 
 .header {
@@ -63,12 +63,14 @@ h5 {
 
 .about-content h1 {
     padding: 20px;
+
 }
 
 #homePageContent {
     height: auto;
     width: 90%;
-    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #contactLink {
@@ -77,10 +79,8 @@ h5 {
 }
 
 .portfolio-content {
-    width: 90%;
-    margin: 20px auto;
-    position: relative;
-    top: 40px;
+    width: 1000px;
+    margin: 40px auto;
 }
 
 .portfolio-content::after {
@@ -94,20 +94,19 @@ h5 {
     width: 30%;
     /* between content boxes themselves */
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 img {
     display: block;
     height: 200px;
     width: 300px;
-    margin: auto;
 }
 
 .portfolio-description {
     text-align: center;
     color: white;
     width: 300px;
-    margin: auto;
     padding: 10px; 
     background: orangered;
 }
@@ -171,6 +170,13 @@ button {
     body {
     background-color: blue;
     }
+    .portfolio-content {
+        width: 800px;
+        margin-left: 10px;
+    }
+    .portfolio {
+        width: 300px;
+    }
     .contact-form {
         width: 60%;
         margin-left: 20px;
@@ -183,6 +189,9 @@ button {
     }
     .about-content {
         margin: 70px auto;
+    }
+    .portfolio-content {
+        margin-left: 35px;
     }
     .contact-form {
         width: 75%;
@@ -211,20 +220,43 @@ button {
         text-align: center;
         padding-bottom: 10px;
     }
-
     .about-content #homePageContent {
         text-align: center;
+        margin-left: 5px;
+    }
+    .portfolio-content {
+        width: 90%;
+        margin-left: 50px;
+    }
+    .portfolio {
         margin-left: 15px;
     }
-
-
+    img {
+        height: 350px;
+        width: 500px;
+    }
+    .portfolio-description {
+        width: 500px;
+        padding: 30px;
+    }
     .contact-form {
         width: 80%;
         margin: 50px auto;
     }
-
+    #contact-name, #contact-email {
+        height: 9%;
+    }
 }
 
 
-
-
+@media (max-width: 414px) {    
+    .portfolio-content {
+        margin-left: 17px;
+    } 
+    img {
+        width: 350px;
+        height: 220px;
+    }
+    .portfolio-description {
+        width: 350px;
+    }
